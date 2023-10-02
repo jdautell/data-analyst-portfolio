@@ -113,7 +113,7 @@ ORDER BY `Subgroup`;
 
 The dataset was cleaned to exclude null values, ensuring the accuracy and reliability of the analysis. The data was then structured into separate sheets/categories: overall trends, state-wise trends, income level trends, age group trends, and statistical analysis.
 
-[Look at the cleaned data here]([#clean_telemedicine_dataset.xlsx](https://github.com/jdautell/data-analyst-portfolio/blob/main/telemedicine_case_study/clean_telemedicine_dataset.xlsx)) 
+[Link to download clean data here](https://github.com/jdautell/data-analyst-portfolio/blob/main/telemedicine_case_study/clean_telemedicine_dataset.xlsx)
 
 ## 4. Analyze
 
