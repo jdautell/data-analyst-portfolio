@@ -1,4 +1,4 @@
-# My Data Analyst Portfolio
+# Jordan Dautelle - My Data Analytics Portfolio
 
 Welcome to my GitHub Data Analyst portfolio! This repository showcases two in-depth case studies emphasizing my data analytics and visualization skills using tools such as R, SQL, and Tableau.
 
