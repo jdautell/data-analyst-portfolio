@@ -211,6 +211,9 @@ ggplot(data=activity, aes(x=TotalSteps, y=Calories)) +
 
 ![](bellabeat_case_study/unnamed-chunk-4-1.png)<!-- -->
 
+![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/632f30c0-c44f-4f6d-bdca-3cc399844e1a)
+
+
 ``` r
 # Sleep Duration vs. Total Steps (Activity Level) with Jitter and Regression Line
 ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=TotalSteps)) + 
