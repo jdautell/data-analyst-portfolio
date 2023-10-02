@@ -70,20 +70,6 @@ and handling missing or erroneous data to ensure integrity.
 ``` r
 # Load necessary libraries
 library(tidyverse)
-```
-
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.2     ✔ readr     2.1.4
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
-    ## ✔ ggplot2   3.4.3     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.2     
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
-``` r
 library(lubridate)
 
 # Define the common path prefix
@@ -216,9 +202,7 @@ ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=TotalSteps)) +
   theme_minimal()
 ```
 
-    ## `geom_smooth()` using formula = 'y ~ x'
-
-![](bellabeat_case_study_files/figure-gfm/unnamed-chunk-4-2.png)<!-- -->
+![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/f03f1001-a6d6-4ec5-9d52-f86a7b5863e6)
 
 ``` r
 # Define Activity Level based on Total Steps
@@ -234,7 +218,7 @@ ggplot(data=merged_data, aes(x=ActivityLevel, y=TotalMinutesAsleep, fill=Activit
   scale_fill_manual(values=c("Low" = "lightblue", "Medium" = "lightgreen", "High" = "lightcoral"))
 ```
 
-![](bellabeat_case_study_files/figure-gfm/unnamed-chunk-4-3.png)<!-- -->
+![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/725a3697-e8c2-4190-a60d-df055b4a8edb)
 
 ``` r
 # Average Intensity Levels vs. Time with Line Plot and Shading
@@ -255,7 +239,8 @@ ggplot(data=intensity_avg, aes(x=time, y=avg_intensity)) +
   theme_minimal()
 ```
 
-![](bellabeat_case_study_files/figure-gfm/unnamed-chunk-4-4.png)<!-- -->
+![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/fdab1944-46ca-4cad-bb57-49cbbe13c1e2)
+
 \### Interpretation of Visualizations
 
 - The Hexbin Plot shows a clear positive linear relationship between
