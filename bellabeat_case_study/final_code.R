@@ -1,11 +1,11 @@
-# Case study code
-# Load necessary libraries
+# Bellabeat case study code
 
+# Load necessary libraries
 library(tidyverse)
 library(lubridate)
 
 # Define the common path prefix
-path_prefix <- "Coursera/Capstone/Fitabase Data 4.12.16-5.12.16/"
+path_prefix <- "C:/Users/jorda/OneDrive/Documents/Coursera/Capstone/Fitabase Data 4.12.16-5.12.16/"
 
 # Check if files exist before loading
 files <- c("dailyActivity_merged.csv", "hourlyCalories_merged.csv", 
@@ -24,10 +24,8 @@ intensities <- read.csv(paste0(path_prefix, "hourlyIntensities_merged.csv"))
 sleep <- read.csv(paste0(path_prefix, "sleepDay_merged.csv"))
 weight <- read.csv(paste0(path_prefix, "weightLogInfo_merged.csv"))
 
-# Data Cleaning and Formatting
 # Format timestamp columns
 format_timestamp <- function(data, timestamp_col) {
-  # Convert timestamp columns to POSIXct and extract date and time
   data[[timestamp_col]] <- as.POSIXct(data[[timestamp_col]], format="%m/%d/%Y %I:%M:%S %p", tz="UTC")
   data$date <- format(data[[timestamp_col]], format="%Y-%m-%d")
   data$time <- format(data[[timestamp_col]], format="%H:%M:%S")
@@ -43,10 +41,8 @@ sleep <- format_timestamp(sleep, "SleepDay")
 # Merge the data frames using 'Id' and 'date' columns
 merged_data <- merge(activity, sleep, by=c('Id', 'date'))
 
-# Exploratory Data Analysis (EDA)
-
 # Calculate summary statistics for various variables
-variables <- c("TotalSteps", "Calories", "TotalMinutesAsleep", "TotalTimeInBed", "TotalIntensity")
+variables <- c("TotalSteps", "Calories", "TotalMinutesAsleep", "TotalTimeInBed")
 for (var in variables) {
   print(paste0("Summary Statistics for ", var, ":"))
   print(summary(merged_data[[var]]))
@@ -57,13 +53,18 @@ cor_test <- cor.test(activity$TotalSteps, activity$Calories)
 print("Correlation Test between Total Steps and Calories Burned:")
 print(cor_test)
 
-# Visualization
-
 # Total Steps vs. Calories Burned with Hexbin Plot and Regression Line
 ggplot(data=activity, aes(x=TotalSteps, y=Calories)) + 
   geom_hex(bins=50, color="white") + 
   geom_smooth(method="lm", se=FALSE, color="red") +
   labs(title="Total Steps vs. Calories Burned", x="Total Steps", y="Calories Burned") +
+  theme_minimal()
+
+# Sleep Duration vs. Total Steps (Activity Level) with Jitter and Regression Line
+ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=TotalSteps)) + 
+  geom_jitter(shape=1, color="darkblue", width=0.3, height=0.3) +
+  geom_smooth(method="lm", se=FALSE, color="red") +
+  labs(title="Sleep Duration vs. Total Steps", x="Total Minutes Asleep", y="Total Steps (Activity Level)") +
   theme_minimal()
 
 # Define Activity Level based on Total Steps
@@ -86,7 +87,7 @@ intensity_avg <- intensities %>%
 # Convert 'time' to factor while keeping only the hour part for plotting
 intensity_avg$time <- factor(format(strptime(intensity_avg$time, format="%H:%M:%S"), "%H"), levels = sprintf("%02d", 0:23))
 
-# Create the line plot with shading
+# Create the line plot
 ggplot(data=intensity_avg, aes(x=time, y=avg_intensity)) + 
   geom_line(group=1, color='darkblue') +
   geom_ribbon(aes(ymin=avg_intensity-se, ymax=avg_intensity+se), alpha=0.2) +
@@ -94,7 +95,3 @@ ggplot(data=intensity_avg, aes(x=time, y=avg_intensity)) +
   theme(axis.text.x = element_text(angle=45, vjust=0.5, hjust=1)) +
   labs(title="Average Intensity Levels vs. Time", x="Time (Hour)", y="Average Intensity") +
   theme_minimal()
-
-
-
-
