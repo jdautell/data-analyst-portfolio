@@ -23,7 +23,7 @@ Bellabeat is a high-tech company that manufactures health-focused smart products
 
 [Link to the full Bellabeat Case Study](./bellabeat_case_study/README.md)
 
-# Demographic Analysis of Telemedicine Trends
+# Demographic Analysis of Telemedicine Trends during COVID-19
 ## Introduction
 This study aims to uncover demographic trends in telemedicine usage, especially during the COVID-19 pandemic, using SQL for data extraction and Tableau for visualizations.
 
@@ -49,7 +49,7 @@ Key findings include the rise of telemedicine adoption during the pandemic, high
 ## Share & Act
 This section offers interpretations and strategic actions for stakeholders such as healthcare providers, policymakers, and telemedicine platforms based on the analysis.
 
-[Link to the full Telemedicine Trends During COVID-19 case study](./telemedicine-trends-case-study/README.md)
+[Link to the full Telemedicine Case Study](./telemedicine_trends_case_study/README.md)
 
 Thank you for exploring my portfolio! Feel free to browse through the case studies for a detailed understanding and reach out if you have any questions or collaborations in mind.
 
