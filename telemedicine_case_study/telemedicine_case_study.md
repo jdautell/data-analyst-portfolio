@@ -138,11 +138,11 @@ The dataset was cleaned to exclude null values, ensuring the accuracy and reliab
 
 ### Strategic Actions for Stakeholders:
 - **Healthcare Providers:** Enhance telemedicine platforms to be user-friendly, especially for older age groups.
-  - Offer training or tutorials to patients unfamiliar with telemedicine.
+    - Offer training or tutorials to patients unfamiliar with telemedicine.
 - **Policy Makers:** Advocate for improved broadband access in areas with low telemedicine adoption.
-- Consider subsidizing telemedicine services for lower-income demographics.
+    - Consider subsidizing telemedicine services for lower-income demographics.
 - **Telemedicine Platforms:** Integrate feedback mechanisms to continually refine and improve the user experience.
-- Collaborate with healthcare providers for tailored solutions catering to diverse patient needs.
+    - Collaborate with healthcare providers for tailored solutions catering to diverse patient needs.
 - **Public Health Campaigns:** Promote the benefits and accessibility of telemedicine, especially in regions or demographics with lower adoption.
 
 In conclusion, this demographic analysis of telemedicine trends provides a comprehensive overview of adoption patterns during the COVID-19 pandemic. The insights and recommendations derived can guide stakeholders in optimizing telemedicine services for broader and more consistent adoption in the future.
