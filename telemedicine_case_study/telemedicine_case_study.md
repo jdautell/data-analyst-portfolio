@@ -138,7 +138,7 @@ The dataset was cleaned to exclude null values, ensuring the accuracy and reliab
 
 ### Strategic Actions for Stakeholders:
 - **Healthcare Providers:** Enhance telemedicine platforms to be user-friendly, especially for older age groups.
-- Offer training or tutorials to patients unfamiliar with telemedicine.
+  - Offer training or tutorials to patients unfamiliar with telemedicine.
 - **Policy Makers:** Advocate for improved broadband access in areas with low telemedicine adoption.
 - Consider subsidizing telemedicine services for lower-income demographics.
 - **Telemedicine Platforms:** Integrate feedback mechanisms to continually refine and improve the user experience.
