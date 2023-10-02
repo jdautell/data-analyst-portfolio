@@ -2,6 +2,8 @@
 
 Welcome to my Data Analyst portfolio on GitHub! This repository showcases my skills and projects in data analytics and visualization. I've completed multiple case studies using different tools and approaches like R, SQL, and Tableau. Each folder contains a detailed analysis and its findings, which I'll outline below.
 
+![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/9c62135b-1911-4fbe-b4e8-46068fb314ce)
+
 ## Table of Contents
 1. [Bellabeat Data Analysis Case Study](#bellabeat-data-analysis-case-study)
 3. [Demographic Analysis of Telemedicine Trends during COVID-19 Case Study](#Demographic-Analysis-of-Telemedicine-Trends-Case-Study)
