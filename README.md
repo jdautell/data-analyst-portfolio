@@ -4,7 +4,7 @@ Welcome to my Data Analyst portfolio on GitHub! This repository showcases my ski
 
 # Table of Contents
 1. [Bellabeat Data Analysis Case Study](#bellabeat-data-analysis-case-study)
-3. [Demographic Analysis of Telemedicine Trends during COVID-19 Case Study](#demographic-analysis-of-telemedicine-trends-during-covid-19)
+3. [Demographic Analysis of Telemedicine Trends during COVID-19 Case Study](#Demographic-Analysis-of-Telemedicine-Trends-during-COVID-19-Case-Study)
 
 # Bellabeat Data Analysis Case Study
 ## Introduction
@@ -23,7 +23,7 @@ Bellabeat is a high-tech company that manufactures health-focused smart products
 
 [Link to the full Bellabeat Case Study](./bellabeat_case_study/README.md)
 
-# Demographic Analysis of Telemedicine Trends during COVID-19
+# Demographic Analysis of Telemedicine Trends during COVID-19 Case Study
 ## Introduction
 This study aims to uncover demographic trends in telemedicine usage, especially during the COVID-19 pandemic, using SQL for data extraction and Tableau for visualizations.
 
