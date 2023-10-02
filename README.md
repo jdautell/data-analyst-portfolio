@@ -49,7 +49,7 @@ Key findings include the rise of telemedicine adoption during the pandemic, high
 ## Share & Act
 This section offers interpretations and strategic actions for stakeholders such as healthcare providers, policymakers, and telemedicine platforms based on the analysis.
 
-[Link to the full Telemedicine Case Study](vtelemedicine_trends_case_study/README.md)
+[Link to the full Telemedicine Case Study](vtelemedicine_case_study/README.md)
 
 Thank you for exploring my portfolio! Feel free to browse through the case studies for a detailed understanding and reach out if you have any questions or collaborations in mind.
 
