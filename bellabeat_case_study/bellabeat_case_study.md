@@ -241,7 +241,7 @@ ggplot(data=intensity_avg, aes(x=time, y=avg_intensity)) +
 
 ![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/fdab1944-46ca-4cad-bb57-49cbbe13c1e2)
 
-\### Interpretation of Visualizations
+### Interpretation of Visualizations
 
 - The Hexbin Plot shows a clear positive linear relationship between
   Total Steps and Calories Burned.
