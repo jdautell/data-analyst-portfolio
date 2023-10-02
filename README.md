@@ -1,4 +1,4 @@
-# Data Analyst Portfolio
+# My Data Analyst Portfolio
 
 Welcome to my Data Analyst portfolio on GitHub! This repository showcases my skills and projects in data analytics and visualization. I've completed multiple case studies using different tools and approaches like R, SQL, and Tableau. Each folder contains a detailed analysis and its findings, which I'll outline below.
 
