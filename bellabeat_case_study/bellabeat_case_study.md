@@ -9,7 +9,7 @@ case study is to analyze smart device data to uncover insights into
 consumer habits, which will inform Bellabeat’s marketing strategy and
 potentially unlock new growth opportunities.
 
-# Ask
+## 1. Ask
 
 ### Problem Statement
 
@@ -33,7 +33,7 @@ Secondary Stakeholders:
 
 - Bellabeat marketing analytics team
 
-# Prepare
+## 2. Prepare
 
 #### Data Source and Location
 
@@ -56,7 +56,7 @@ Organized in 18 CSV files, each focusing on different aspects of user
 activity, the dataset has been scrutinized for errors and
 inconsistencies to ensure its integrity and reliability.
 
-# Process
+## 3. Process
 
 ### Tools and Data Cleaning
 
@@ -114,7 +114,7 @@ sleep <- format_timestamp(sleep, "SleepDay")
 merged_data <- merge(activity, sleep, by=c('Id', 'date'))
 ```
 
-# Analyze
+## 4. Analyze
 
 ### Exploratory Data Analysis (EDA)
 
@@ -178,7 +178,7 @@ print(cor_test)
   TotalMinutesAsleep show varying ranges, indicating diversity in user
   behavior.
 
-# Share
+## 5. Share
 
 ### Visualization
 
@@ -255,7 +255,7 @@ ggplot(data=intensity_avg, aes(x=time, y=avg_intensity)) +
   intensity peaks during morning and evening, suggesting popular times
   for workouts.
 
-# Act
+## 6. Act
 
 ### Conclusions and Recommendations
 
