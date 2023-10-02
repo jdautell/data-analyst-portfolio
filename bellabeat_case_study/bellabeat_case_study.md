@@ -205,14 +205,7 @@ ggplot(data=activity, aes(x=TotalSteps, y=Calories)) +
   theme_minimal()
 ```
 
-    ## `geom_smooth()` using formula = 'y ~ x'
-
-![](bellabeat_case_study_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
-
-![](bellabeat_case_study/unnamed-chunk-4-1.png)<!-- -->
-
 ![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/632f30c0-c44f-4f6d-bdca-3cc399844e1a)
-
 
 ``` r
 # Sleep Duration vs. Total Steps (Activity Level) with Jitter and Regression Line
