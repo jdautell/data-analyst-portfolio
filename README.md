@@ -21,7 +21,7 @@ Bellabeat is a high-tech company that manufactures health-focused smart products
 * Acknowledgment: Dataset by Furberg, Robert; Brinton, Julia; Keating, Michael; and Ortiz, Alexa from Zenodo.
 * Tools Used: R, for data cleaning, exploration, and visualization.
 
-[Link to the full Bellabeat Case Study](./bellabeat_case_study/README.md)
+[Link to the full Bellabeat Case Study](./bellabeat_case_study/bellabeat_case_study.md)
 
 # Demographic Analysis of Telemedicine Trends during COVID-19 Case Study
 ## Introduction
