@@ -1,6 +1,6 @@
 # My Data Analyst Portfolio
 
-Welcome to my Data Analyst portfolio on GitHub! This repository showcases my skills and projects in data analytics and visualization. I've completed multiple case studies using different tools and approaches like R, SQL, and Tableau. Each folder contains a detailed analysis and its findings, which I'll outline below.
+Welcome to my GitHub Data Analyst portfolio! This repository showcases two in-depth case studies emphasizing my data analytics and visualization skills using tools such as R, SQL, and Tableau.
 
 ![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/970f6198-9d1c-4803-af04-25e03761ce1d)
 
@@ -11,6 +11,15 @@ Welcome to my Data Analyst portfolio on GitHub! This repository showcases my ski
 # Bellabeat Data Analysis Case Study
 ## Introduction
 Bellabeat is a high-tech company that manufactures health-focused smart products for women. This case study aims to derive insights from smart device data that could inform Bellabeat's marketing strategy and unlock new growth opportunities.
+
+**Objective**: Analyze consumer usage data of non-Bellabeat smart devices to uncover insights that can guide Bellabeat's marketing strategy.
+
+- **Ask**: Investigate trends in smart device usage and their implications for Bellabeat customers.
+- **Prepare**: Used R for data cleaning, exploration, and visualization. Data sourced from FitBit Fitness Tracker on Kaggle.
+- **Analyze**: Explored relationships between different variables to identify patterns and trends in smart device usage.
+- **Share**: Visualizations highlight a positive linear relationship between Total Steps and Calories Burned and variations in sleep duration across different activity levels.
+- **Act**: Recommendations include targeted marketing campaigns, personalized health goals, and user segmentation for effective communication.
+
 
 ## Ask
 * Objective: Analyze consumer usage data of non-Bellabeat smart devices.
@@ -28,6 +37,14 @@ Bellabeat is a high-tech company that manufactures health-focused smart products
 # Demographic Analysis of Telemedicine Trends Case Study
 ## Introduction
 This study aims to uncover demographic trends in telemedicine usage, especially during the COVID-19 pandemic, using SQL for data extraction and Tableau for visualizations.
+
+**Objective**: Investigate demographic trends in telemedicine usage during the COVID-19 pandemic.
+
+- **Ask**: Study the evolution of telemedicine usage over time and the influence of age, state, and income level on its adoption.
+- **Prepare**: Data sourced from the CDC's website. Utilized SQL for extraction and Tableau for visualization.
+- **Analyze**: Found a rise in telemedicine adoption during the pandemic, with variations based on age, state, and income.
+- **Share**: Older age groups show increased adoption but with higher variability. Geographically, coastal regions have higher telemedicine uptake than central and rural states. 
+- **Act**: Strategic actions encompass enhancing telemedicine platforms for the elderly, advocating for better broadband in areas with low adoption, and ensuring telemedicine is accessible across all income levels.
 
 ## Ask
 * Objective: Understand the demographic trends in telemedicine usage.
