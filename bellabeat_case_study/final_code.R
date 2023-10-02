@@ -1,18 +1,9 @@
+# Case study code
 # Load necessary libraries
+
 library(tidyverse)
 library(lubridate)
 
-# ------------------------------------------------------------------
-# Description of the Dataset and Objectives of the Analysis
-# ------------------------------------------------------------------
-# This script analyzes a dataset from Fitabase, which includes information
-# about daily activity, calorie consumption, sleep patterns, and weight.
-# The objective is to explore relationships among different variables and
-# gain insights into patterns of activity, calorie burn, and sleep.
-
-# ------------------------------------------------------------------
-# Data Loading
-# ------------------------------------------------------------------
 # Define the common path prefix
 path_prefix <- "Coursera/Capstone/Fitabase Data 4.12.16-5.12.16/"
 
@@ -33,9 +24,7 @@ intensities <- read.csv(paste0(path_prefix, "hourlyIntensities_merged.csv"))
 sleep <- read.csv(paste0(path_prefix, "sleepDay_merged.csv"))
 weight <- read.csv(paste0(path_prefix, "weightLogInfo_merged.csv"))
 
-# ------------------------------------------------------------------
 # Data Cleaning and Formatting
-# ------------------------------------------------------------------
 # Format timestamp columns
 format_timestamp <- function(data, timestamp_col) {
   # Convert timestamp columns to POSIXct and extract date and time
@@ -54,9 +43,8 @@ sleep <- format_timestamp(sleep, "SleepDay")
 # Merge the data frames using 'Id' and 'date' columns
 merged_data <- merge(activity, sleep, by=c('Id', 'date'))
 
-# ------------------------------------------------------------------
 # Exploratory Data Analysis (EDA)
-# ------------------------------------------------------------------
+
 # Calculate summary statistics for various variables
 variables <- c("TotalSteps", "Calories", "TotalMinutesAsleep", "TotalTimeInBed", "TotalIntensity")
 for (var in variables) {
@@ -69,9 +57,8 @@ cor_test <- cor.test(activity$TotalSteps, activity$Calories)
 print("Correlation Test between Total Steps and Calories Burned:")
 print(cor_test)
 
-# ------------------------------------------------------------------
 # Visualization
-# ------------------------------------------------------------------
+
 # Total Steps vs. Calories Burned with Hexbin Plot and Regression Line
 ggplot(data=activity, aes(x=TotalSteps, y=Calories)) + 
   geom_hex(bins=50, color="white") + 
@@ -91,9 +78,6 @@ ggplot(data=merged_data, aes(x=ActivityLevel, y=TotalMinutesAsleep, fill=Activit
   theme_minimal() +
   scale_fill_manual(values=c("Low" = "lightblue", "Medium" = "lightgreen", "High" = "lightcoral"))
 
-
-
-
 # Average Intensity Levels vs. Time with Line Plot and Shading
 intensity_avg <- intensities %>%
   group_by(time) %>%
@@ -111,11 +95,6 @@ ggplot(data=intensity_avg, aes(x=time, y=avg_intensity)) +
   labs(title="Average Intensity Levels vs. Time", x="Time (Hour)", y="Average Intensity") +
   theme_minimal()
 
-# ------------------------------------------------------------------
-# Final Summary/Conclusion
-# ------------------------------------------------------------------
-# Here, summarize the key findings and insights gained from the analysis.
-# Discuss any patterns or relationships observed and their implications.
 
 
 
