@@ -51,5 +51,5 @@ This section offers interpretations and strategic actions for stakeholders such 
 
 [Link to the full Telemedicine Case Study](vtelemedicine_case_study/README.md)
 
-Thank you for exploring my portfolio! Feel free to browse through the case studies for a detailed understanding and reach out on [LinkedIn]([Your_LinkedIn_Profile_Link](https://www.linkedin.com/in/jordan-dautelle-72a672169/)). if you have any questions or collaborations in mind.
+Thank you for exploring my portfolio! Feel free to browse through the case studies for a detailed understanding and reach out on [LinkedIn](https://www.linkedin.com/in/jordan-dautelle-72a672169/) if you have any questions or collaborations in mind.
 
