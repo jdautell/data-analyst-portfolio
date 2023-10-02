@@ -15,7 +15,7 @@ To understand the demographic trends in telemedicine usage, especially during th
 ## 2. Prepare or Collect Data
 
 ### Data Source:
-The dataset "Telemedicine Use in the Last 4 Weeks" was sourced from CDC's website.
+The dataset "Telemedicine Use in the Last 4 Weeks" was sourced from [CDC's website](https://data.cdc.gov/NCHS/Telemedicine-Use-in-the-Last-4-Weeks/h7xa-837u).
 
 ### SQL Extraction:
 SQL was employed to filter and aggregate the data from the source, focusing on indicators related to telemedicine usage. Specific queries looked at average usage over time, by state, by age group, and by income level. Further, statistical measures like variance and standard deviation were extracted for a deeper dive into the consistency of usage patterns.
@@ -111,17 +111,17 @@ ORDER BY `Subgroup`;
 
 ## 3. Clean and Process
 
-The dataset was cleaned to exclude null values, ensuring the accuracy and reliability of the analysis. The data was then structured into separate sheets/categories: overall trends, state-wise trends, income level trends, age group trends, and statistical analysis.
+The dataset was cleaned to exclude null values, ensuring the accuracy and reliability of the analysis. The data was then structured into separate sheets/categories: overall trends for adults and children, state-wise trends, income level trends, age group trends, and statistical analysis.
 
-[Link to download clean data here](https://github.com/jdautell/data-analyst-portfolio/blob/main/telemedicine_case_study/clean_telemedicine_dataset.xlsx)
+[Link to clean data here](https://github.com/jdautell/data-analyst-portfolio/blob/main/telemedicine_case_study/clean_telemedicine_dataset.xlsx)
 
 ## 4. Analyze
 
 ### Key Findings:
-- **Telemedicine Adoption Over Time:** Telemedicine usage witnessed an upward trajectory, especially from early 2021. This is likely influenced by the progression of the pandemic and the shift in healthcare approach.
-- **Age Group Analysis:** Older age groups (60+ years) consistently showed higher telemedicine adoption compared to younger age groups. The risk associated with COVID-19 for older individuals possibly influenced this trend.
-- **State-wise Analysis:** Telemedicine adoption displayed variability across states. Specific states exhibited higher average telemedicine usage, possibly due to more severe pandemic impacts or proactive state healthcare policies.
-- **Income Level Analysis:** Lower income groups reported higher telemedicine usage compared to higher income groups. This could indicate that telemedicine served as an accessible healthcare option during economic challenges exacerbated by the pandemic.
+- **Telemedicine Adoption Over Time:** The dual-axis line chart displays a dynamic trajectory in telemedicine adoption for both adults and households with children. There's a pronounced surge in September 2021, punctuated by occasional declines in months like July 2021, January 2022, April 2022, and July 2022.
+- **Telemedicine Usage by Age Group:** Telemedicine adoption seems to rise with age, but the oldest groups, especially those 80 and above, demonstrate greater variability in their usage, as highlighted by a heightened standard deviation.
+- **State-wise Analysis:** The east and west coasts of the U.S. exhibit higher telemedicine usage, whereas central America, particularly the less populated or more rural states, shows reduced uptake.
+- **Income Level Analysis:** A U-shaped pattern emerges across income brackets, with individuals earning less than $35,000 and those earning more than $200,000 exhibiting above-average telemedicine utilization.
 - **Variability in Usage:** Age groups "60 - 69 years" and "70 years and above" displayed higher variability in telemedicine usage, suggesting diverse adoption patterns within these demographics.
 
 [Link to my Tableau Dashboard](https://public.tableau.com/app/profile/jordan.dautelle/viz/COVID-19TelemedicineDemographicCaseStudy/Dashboard1) 
@@ -129,20 +129,20 @@ The dataset was cleaned to exclude null values, ensuring the accuracy and reliab
 ## 5. Share
 
 ### Interpretations and Recommendations:
-- **Evolving Healthcare Landscape:** The rising trend in telemedicine adoption underscores its growing significance in the healthcare sector. Providers should invest in enhancing the quality, accessibility, and breadth of telemedicine services.
-- **Tailored Strategies for Older Demographics:** Given the higher adoption and variability among older age groups, healthcare providers should consider offering additional support, training, or awareness campaigns to ensure consistent access.
-- **Geographical Disparities:** States with lower telemedicine adoption might benefit from policy interventions, infrastructure investments, and awareness campaigns to boost accessibility.
-- **Economic Considerations:** With lower income groups showing higher telemedicine usage, it's crucial to ensure affordable telemedicine services, especially during economic downturns.
+- **Pandemic-Driven Telemedicine Growth:** The overarching growth in telemedicine adoption, emphasized by the significant spike in September 2021, indicates the profound impact of the COVID-19 pandemic. It has acted as a catalyst, potentially due to lockdowns, social distancing mandates, or heightened health awareness. As telemedicine becomes an integral healthcare facet, providers should be equipped for this sustained growth and potential future surges, especially in the face of ongoing pandemic challenges.
+- **Tailored Strategies for Older Demographics:** The increasing telemedicine trend among older individuals is promising. However, the variability in the oldest age bracket indicates a potential gap in tech familiarity or comfort. Tailored training programs or user-friendly interfaces could be developed to engage this demographic more effectively and ensure they fully benefit from telemedicine services.
+- **Geographical Disparities:** The coastal regions, associated with urban centers and higher technological infrastructure, naturally gravitate towards telemedicine. However, the subdued adoption in central America underscores the need to address barriers like limited infrastructure, especially in the wake of the pandemic. Investments in these regions can ensure equitable access, particularly crucial during health crises.
+- **Economic Considerations:** The pandemic has affected various income groups differently. While telemedicine offers a solution, it's essential to ensure that its benefits are not limited to specific economic brackets. Policies should aim to make telemedicine equally accessible across all income levels.
 
 ## 6. Act
 
 ### Strategic Actions for Stakeholders:
 - **Healthcare Providers:** Enhance telemedicine platforms to be user-friendly, especially for older age groups.
-Offer training or tutorials to patients unfamiliar with telemedicine.
+- Offer training or tutorials to patients unfamiliar with telemedicine.
 - **Policy Makers:** Advocate for improved broadband access in areas with low telemedicine adoption.
-Consider subsidizing telemedicine services for lower-income demographics.
+- Consider subsidizing telemedicine services for lower-income demographics.
 - **Telemedicine Platforms:** Integrate feedback mechanisms to continually refine and improve the user experience.
-Collaborate with healthcare providers for tailored solutions catering to diverse patient needs.
+- Collaborate with healthcare providers for tailored solutions catering to diverse patient needs.
 - **Public Health Campaigns:** Promote the benefits and accessibility of telemedicine, especially in regions or demographics with lower adoption.
 
 In conclusion, this demographic analysis of telemedicine trends provides a comprehensive overview of adoption patterns during the COVID-19 pandemic. The insights and recommendations derived can guide stakeholders in optimizing telemedicine services for broader and more consistent adoption in the future.
