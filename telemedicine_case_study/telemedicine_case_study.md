@@ -113,37 +113,36 @@ ORDER BY `Subgroup`;
 
 The dataset was cleaned to exclude null values, ensuring the accuracy and reliability of the analysis. The data was then structured into separate sheets/categories: overall trends, state-wise trends, income level trends, age group trends, and statistical analysis.
 
-[Look at the cleaned data here](#clean_telemedicine_dataset.xlsx) 
-
-*Note: You can replace the `#` with the actual link to the file.*
+[Look at the cleaned data here]([#clean_telemedicine_dataset.xlsx](https://github.com/jdautell/data-analyst-portfolio/blob/main/telemedicine_case_study/clean_telemedicine_dataset.xlsx)) 
 
 ## 4. Analyze
 
 ### Key Findings:
-- **Telemedicine Adoption Over Time:** ...
-- **Age Group Analysis:** ...
-- **State-wise Analysis:** ...
-- **Income Level Analysis:** ...
-- **Variability in Usage:** ...
+- **Telemedicine Adoption Over Time:** Telemedicine usage witnessed an upward trajectory, especially from early 2021. This is likely influenced by the progression of the pandemic and the shift in healthcare approach.
+- **Age Group Analysis:** Older age groups (60+ years) consistently showed higher telemedicine adoption compared to younger age groups. The risk associated with COVID-19 for older individuals possibly influenced this trend.
+- **State-wise Analysis:** Telemedicine adoption displayed variability across states. Specific states exhibited higher average telemedicine usage, possibly due to more severe pandemic impacts or proactive state healthcare policies.
+- **Income Level Analysis:** Lower income groups reported higher telemedicine usage compared to higher income groups. This could indicate that telemedicine served as an accessible healthcare option during economic challenges exacerbated by the pandemic.
+- **Variability in Usage:** Age groups "60 - 69 years" and "70 years and above" displayed higher variability in telemedicine usage, suggesting diverse adoption patterns within these demographics.
 
-[Embed or reference the Python visualizations or provide a link to the Tableau Dashboard](#) 
-
-*Note: You can replace the `#` with the actual link or embed code.*
+[Link to my Tableau Dashboard](https://public.tableau.com/app/profile/jordan.dautelle/viz/COVID-19TelemedicineDemographicCaseStudy/Dashboard1) 
 
 ## 5. Share
 
 ### Interpretations and Recommendations:
-- **Evolving Healthcare Landscape:** ...
-- **Tailored Strategies for Older Demographics:** ...
-- **Geographical Disparities:** ...
-- **Economic Considerations:** ...
+- **Evolving Healthcare Landscape:** The rising trend in telemedicine adoption underscores its growing significance in the healthcare sector. Providers should invest in enhancing the quality, accessibility, and breadth of telemedicine services.
+- **Tailored Strategies for Older Demographics:** Given the higher adoption and variability among older age groups, healthcare providers should consider offering additional support, training, or awareness campaigns to ensure consistent access.
+- **Geographical Disparities:** States with lower telemedicine adoption might benefit from policy interventions, infrastructure investments, and awareness campaigns to boost accessibility.
+- **Economic Considerations:** With lower income groups showing higher telemedicine usage, it's crucial to ensure affordable telemedicine services, especially during economic downturns.
 
 ## 6. Act
 
 ### Strategic Actions for Stakeholders:
-- **Healthcare Providers:** ...
-- **Policy Makers:** ...
-- **Telemedicine Platforms:** ...
-- **Public Health Campaigns:** ...
+- **Healthcare Providers:** Enhance telemedicine platforms to be user-friendly, especially for older age groups.
+Offer training or tutorials to patients unfamiliar with telemedicine.
+- **Policy Makers:** Advocate for improved broadband access in areas with low telemedicine adoption.
+Consider subsidizing telemedicine services for lower-income demographics.
+- **Telemedicine Platforms:** Integrate feedback mechanisms to continually refine and improve the user experience.
+Collaborate with healthcare providers for tailored solutions catering to diverse patient needs.
+- **Public Health Campaigns:** Promote the benefits and accessibility of telemedicine, especially in regions or demographics with lower adoption.
 
 In conclusion, this demographic analysis of telemedicine trends provides a comprehensive overview of adoption patterns during the COVID-19 pandemic. The insights and recommendations derived can guide stakeholders in optimizing telemedicine services for broader and more consistent adoption in the future.
