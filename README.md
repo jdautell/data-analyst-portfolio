@@ -9,64 +9,82 @@ Welcome to my GitHub Data Analyst portfolio! This repository showcases two in-de
 3. [Demographic Analysis of Telemedicine Trends during COVID-19 Case Study](#Demographic-Analysis-of-Telemedicine-Trends-Case-Study)
 
 # Bellabeat Data Analysis Case Study
-## Introduction
-Bellabeat is a high-tech company that manufactures health-focused smart products for women. This case study aims to derive insights from smart device data that could inform Bellabeat's marketing strategy and unlock new growth opportunities.
+Bellabeat, a high-tech manufacturer of health-focused smart products for women, is at the center of this analysis. The aim is to unlock insights from consumer smart device usage, which can guide Bellabeat's marketing strategies and growth prospects.
 
-**Objective**: Analyze consumer usage data of non-Bellabeat smart devices to uncover insights that can guide Bellabeat's marketing strategy.
+### 1. Ask
 
-- **Ask**: Investigate trends in smart device usage and their implications for Bellabeat customers.
-- **Prepare**: Used R for data cleaning, exploration, and visualization. Data sourced from FitBit Fitness Tracker on Kaggle.
-- **Analyze**: Explored relationships between different variables to identify patterns and trends in smart device usage.
-- **Share**: Visualizations highlight a positive linear relationship between Total Steps and Calories Burned and variations in sleep duration across different activity levels.
-- **Act**: Recommendations include targeted marketing campaigns, personalized health goals, and user segmentation for effective communication.
+**Objective**:
+Analyze consumer usage data of non-Bellabeat smart devices.
 
+**Key Questions**:
+- What are the trends in smart device usage?
+- How can these trends be applied to Bellabeat customers?
+- How can these trends influence Bellabeat's marketing strategy?
 
-## Ask
-* Objective: Analyze consumer usage data of non-Bellabeat smart devices.
-* Key Questions:
-  * Trends in smart device usage.
-  * Application of these trends to Bellabeat customers.
-  * Influence of these trends on Bellabeat's marketing strategy.
-## Prepare
-* Data Source: FitBit Fitness Tracker Data from Kaggle.
-* Acknowledgment: Dataset by Furberg, Robert; Brinton, Julia; Keating, Michael; and Ortiz, Alexa from Zenodo.
-* Tools Used: R, for data cleaning, exploration, and visualization.
+### 2. Prepare
+
+**Data Source**:
+FitBit Fitness Tracker Data from Kaggle.
+
+**Tools Used**:
+R for data cleaning, exploration, and visualization.
+
+### 3. Process
+
+The dataset was thoroughly cleaned and processed using R. This involved formatting timestamps, merging datasets, and handling missing or erroneous data.
+
+### 4. Analyze
+
+The analysis unveiled several insights regarding smart device usage patterns, including a strong correlation between total steps taken and calories burned.
+
+### 5. Share
+
+Visual representations and interpretations of findings were created with R, showcasing relationships between variables like total steps, sleep duration, and activity levels.
+
+### 6. Act
+
+Recommendations derived from the analysis target Bellabeat's marketing campaigns, product features, user engagement strategies, and more.
 
 [Link to the full Bellabeat Case Study](./bellabeat_case_study/bellabeat_case_study.md)
 
 # Demographic Analysis of Telemedicine Trends Case Study
-## Introduction
-This study aims to uncover demographic trends in telemedicine usage, especially during the COVID-19 pandemic, using SQL for data extraction and Tableau for visualizations.
+In the face of the COVID-19 pandemic, telemedicine has emerged as a pivotal tool in bridging healthcare accessibility gaps. This case study navigates the intricate landscape of telemedicine adoption across various demographics. Using the structured six steps of data analysis, we examine key influencing factors—from age and location to income—and present actionable insights to optimize telemedicine's role in our evolving healthcare paradigm.
 
-**Objective**: Investigate demographic trends in telemedicine usage during the COVID-19 pandemic.
+### 1. Ask
 
-- **Ask**: Study the evolution of telemedicine usage over time and the influence of age, state, and income level on its adoption.
-- **Prepare**: Data sourced from the CDC's website. Utilized SQL for extraction and Tableau for visualization.
-- **Analyze**: Found a rise in telemedicine adoption during the pandemic, with variations based on age, state, and income.
-- **Share**: Older age groups show increased adoption but with higher variability. Geographically, coastal regions have higher telemedicine uptake than central and rural states. 
-- **Act**: Strategic actions encompass enhancing telemedicine platforms for the elderly, advocating for better broadband in areas with low adoption, and ensuring telemedicine is accessible across all income levels.
+**Objective**:
+Understand demographic trends in telemedicine usage during the COVID-19 pandemic.
 
-## Ask
-* Objective: Understand the demographic trends in telemedicine usage.
-* Key Questions:
-  * Evolution of telemedicine usage over time.
-  * Differences in telemedicine adoption across age groups.
-  * Telemedicine usage variation across states.
-  * Influence of income level on telemedicine adoption.
-  * Age groups showing more variability in telemedicine usage patterns.
-    
-## Prepare or Collect Data
-* Data Source: Dataset "Telemedicine Use in the Last 4 Weeks" from CDC's website.
-* Tools Used: SQL for data extraction and Tableau for visualization.
+**Key Questions**:
+- How has telemedicine usage evolved over time?
+- Are there notable differences in telemedicine adoption across age groups?
+- How does telemedicine usage vary geographically?
+- Does income level influence telemedicine adoption?
+- Which age groups show more variability in telemedicine patterns?
 
-## Clean and Process
-Data was cleaned to exclude null values and structured into various categories like overall trends, state-wise trends, age group trends, and income level trends.
+### 2. Prepare
 
-## Analyze
-Key findings include the rise of telemedicine adoption during the pandemic, higher adoption in older age groups, state variability in adoption, and influence of income levels on adoption patterns.
+**Data Source**:
+"Telemedicine Use in the Last 4 Weeks" from the CDC.
 
-## Share & Act
-This section offers interpretations and strategic actions for stakeholders such as healthcare providers, policymakers, and telemedicine platforms based on the analysis.
+**Tools Used**:
+SQL for data extraction and Tableau for visualization.
+
+### 3. Process
+
+Data was cleaned and structured into different categories, such as overall trends, state-wise patterns, age group trends, and income level trends.
+
+### 4. Analyze
+
+Key findings encompassed the growth trajectory of telemedicine, age-group specific trends, geographical patterns, and economic implications.
+
+### 5. Share
+
+Visual insights were shared using Tableau, highlighting the adoption patterns, influences, and disparities in telemedicine usage.
+
+### 6. Act
+
+Strategic recommendations were crafted for healthcare providers, policymakers, telemedicine platforms, and public health campaigns.
 
 [Link to the full Telemedicine Case Study](./telemedicine_case_study/telemedicine_case_study.md)
 
