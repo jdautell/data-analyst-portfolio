@@ -124,6 +124,8 @@ The dataset was cleaned to exclude null values, ensuring the accuracy and reliab
 - **Income Level Analysis:** A U-shaped pattern emerges across income brackets, with individuals earning less than $35,000 and those earning more than $200,000 exhibiting above-average telemedicine utilization.
 - **Variability in Usage:** Age groups "60 - 69 years" and "70 years and above" displayed higher variability in telemedicine usage, suggesting diverse adoption patterns within these demographics.
 
+![image](https://github.com/jdautell/data-analyst-portfolio/assets/132599194/b30ca2d9-22a9-4e23-84a5-90b40202f7f1)
+
 [Link to my Tableau Dashboard](https://public.tableau.com/app/profile/jordan.dautelle/viz/COVID-19TelemedicineDemographicCaseStudy/Dashboard1) 
 
 ## 5. Share
