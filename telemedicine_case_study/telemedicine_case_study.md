@@ -101,7 +101,7 @@ WHERE (Indicator = 'Adults Who Had Appointment with Health Professional Over Vid
     AND `Subgroup` LIKE '%$%'
 GROUP BY `Subgroup`
 ORDER BY `Subgroup`;
-...
+```
 
 ## 3. Clean and Process
 
